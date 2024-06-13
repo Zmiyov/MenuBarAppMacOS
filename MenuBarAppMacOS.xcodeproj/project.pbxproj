@@ -11,6 +11,7 @@
 		A5AA90152C1B8484004E6A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA90142C1B8484004E6A74 /* ContentView.swift */; };
 		A5AA90172C1B8485004E6A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AA90162C1B8485004E6A74 /* Assets.xcassets */; };
 		A5AA901A2C1B8485004E6A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AA90192C1B8485004E6A74 /* Preview Assets.xcassets */; };
+		A5AA90252C1B86BC004E6A74 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA90242C1B86BC004E6A74 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A5AA90162C1B8485004E6A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AA90192C1B8485004E6A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5AA901B2C1B8485004E6A74 /* MenuBarAppMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarAppMacOS.entitlements; sourceTree = "<group>"; };
+		A5AA90242C1B86BC004E6A74 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,9 @@
 		A5AA90112C1B8484004E6A74 /* MenuBarAppMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				A5AA90232C1B851A004E6A74 /* ViewModel */,
+				A5AA90222C1B8515004E6A74 /* Model */,
+				A5AA90212C1B84FE004E6A74 /* View */,
 				A5AA90122C1B8484004E6A74 /* MenuBarAppMacOSApp.swift */,
 				A5AA90142C1B8484004E6A74 /* ContentView.swift */,
 				A5AA90162C1B8485004E6A74 /* Assets.xcassets */,
@@ -67,6 +72,28 @@
 				A5AA90192C1B8485004E6A74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5AA90212C1B84FE004E6A74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA90242C1B86BC004E6A74 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5AA90222C1B8515004E6A74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5AA90232C1B851A004E6A74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5AA90152C1B8484004E6A74 /* ContentView.swift in Sources */,
+				A5AA90252C1B86BC004E6A74 /* Home.swift in Sources */,
 				A5AA90132C1B8484004E6A74 /* MenuBarAppMacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +307,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +335,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
