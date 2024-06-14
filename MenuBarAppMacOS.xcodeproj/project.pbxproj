@@ -12,6 +12,9 @@
 		A5AA90172C1B8485004E6A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AA90162C1B8485004E6A74 /* Assets.xcassets */; };
 		A5AA901A2C1B8485004E6A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AA90192C1B8485004E6A74 /* Preview Assets.xcassets */; };
 		A5AA90252C1B86BC004E6A74 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA90242C1B86BC004E6A74 /* Home.swift */; };
+		A5FCB85B2C1C2CFA001F287D /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCB85A2C1C2CFA001F287D /* AppViewModel.swift */; };
+		A5FCB85D2C1C2D07001F287D /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCB85C2C1C2D07001F287D /* CryptoModel.swift */; };
+		A5FCB85F2C1C2D1B001F287D /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FCB85E2C1C2D1B001F287D /* LineGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A5AA90192C1B8485004E6A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5AA901B2C1B8485004E6A74 /* MenuBarAppMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarAppMacOS.entitlements; sourceTree = "<group>"; };
 		A5AA90242C1B86BC004E6A74 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A5FCB85A2C1C2CFA001F287D /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		A5FCB85C2C1C2D07001F287D /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		A5FCB85E2C1C2D1B001F287D /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A5AA90242C1B86BC004E6A74 /* Home.swift */,
+				A5FCB85E2C1C2D1B001F287D /* LineGraph.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 		A5AA90222C1B8515004E6A74 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A5FCB85C2C1C2D07001F287D /* CryptoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -92,6 +100,7 @@
 		A5AA90232C1B851A004E6A74 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A5FCB85A2C1C2CFA001F287D /* AppViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -168,7 +177,10 @@
 			files = (
 				A5AA90152C1B8484004E6A74 /* ContentView.swift in Sources */,
 				A5AA90252C1B86BC004E6A74 /* Home.swift in Sources */,
+				A5FCB85B2C1C2CFA001F287D /* AppViewModel.swift in Sources */,
 				A5AA90132C1B8484004E6A74 /* MenuBarAppMacOSApp.swift in Sources */,
+				A5FCB85F2C1C2D1B001F287D /* LineGraph.swift in Sources */,
+				A5FCB85D2C1C2D07001F287D /* CryptoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

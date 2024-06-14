@@ -15,6 +15,9 @@ struct Home: View {
             CustomSegmentedControl()
                 .padding()
             
+            LineGraph()
+                .frame(height: 220)
+                .padding(.top, 25)
             Spacer()
             
             HStack{
